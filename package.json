@@ -1,0 +1,21 @@
+{
+  "name": "capri-on-the-edge",
+  "private": true,
+  "description": "Capri on the edge",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build && vite build --ssr",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capri-js/preact": "^4.0.2-next.2"
+  },
+  "devDependencies": {
+    "@capri-js/vercel": "^1.0.0-next.15",
+    "@preact/preset-vite": "^2.3.0",
+    "vite": "^3.0.0"
+  }
+}
